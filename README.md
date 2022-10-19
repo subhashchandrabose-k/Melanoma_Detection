@@ -1,5 +1,5 @@
 # Melanoma Detection
-> Given a set of images, here is a CNN based model which can accurately detect the Melanoma Cancer.
+> This is a CNN based model which can accurately detect the Melanoma Cancer using the given set of images
 
 
 ## Table of Contents
@@ -8,6 +8,7 @@
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
+<!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
 - Melanoma is a type of cancer that can be deadly if not detected early. It accounts for 75% of skin cancer deaths. A solution that can evaluate images and alert dermatologists about the presence of melanoma has the potential to reduce a lot of manual effort needed in diagnosis.
@@ -25,20 +26,20 @@
 - We are building a CNN based model which can accurately detect the Melanoma Cancer using the given set of images
 
 ## Technologies Used
-- Numpy
 - Pandas
+- Numpy
 - Matplotlib
 - SKLearn
-- Keras
 - Tensorflow
 
 ## Conclusions
-- Initially we have built basic models which predicted the Melanoma with good results but they are prone to overfitting and class imbalances.
-- Treating these problems, we have built a final model which is free from the above problems and gave us improved training and validation accuracies of 95% and 85% respectively
-- The improved difference in accuracies explains us that this is a decent model in detecting the Melanoma Cancer disease than the previous models.
+- We have initialy built naive models which although gave reasonably good results, they suffer from Overfitting and Class imbalances
+- After handling Overfitting using Dropout and removing class imbalances, we have attained a significantly decent model which can detect the Melanoma Cancer more accurately than the previous models
+- The significant improvement in model performance can be validated from the much nearer training(95%) and validation(85%) accuracies
+- Thus a decent model is obtained to detect the Melanoma Cancer disease.
 
 
 ## Contact
-Created by [@https://github.com/SuryaV21]
+Created by [@https://github.com/subhashchandrabose-k]
 
 - feel free to contact me!
